@@ -1,4 +1,4 @@
-package com.nisum.rabbitmqsearchmessage;
+package com.nisum.rabbitmq.messages.search;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

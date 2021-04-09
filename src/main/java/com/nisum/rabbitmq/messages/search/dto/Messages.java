@@ -1,4 +1,4 @@
-package com.nisum.rabbitmqsearchmessage.dto;
+package com.nisum.rabbitmq.messages.search.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,8 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Messages {
-
-    private Integer totalMesssageCount;
+    private Integer totalSearchedMessages;
     private Integer filteredMessageCount;
     private List<?> messages;
 }
